@@ -13,16 +13,6 @@ function App() {
               <Leaf className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-2xl font-bold text-blue-600">Farmily</span>
             </div>
-            <div className="flex gap-4">
-              <button className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-blue-600 transition-colors">
-                <LogIn size={20} />
-                Sign In
-              </button>
-              <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                <UserPlus size={20} />
-                Sign Up
-              </button>
-            </div>
           </div>
         </div>
       </nav>
@@ -63,10 +53,10 @@ function App() {
           <h2 className="text-5xl font-bold text-center text-gray-900 mb-16">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <Link href={'/plant-info'} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md  border-2   transition-shadow">
-              <Apple className="w-12 h-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-4">Plant Information</h3>
+            <Bug className="w-12 h-12 text-blue-600 mb-4" />
+              <h3 className="text-xl font-semibold mb-4">Disease Detection</h3>
               <p className="text-gray-600">
-                Access detailed information about plants and seeds to make informed decisions about your crops.
+              Identify the crop and  diseases early with our AI-powered detection system.
               </p>
             </Link>
             <Link href={'/crop-recomend'} className="bg-white p-8 rounded-xl shadow-sm border-2  hover:shadow-md transition-shadow">
@@ -76,13 +66,13 @@ function App() {
                 Get personalized crop recommendations based on your field conditions and local climate.
               </p>
             </Link>
-            <Link href={'/plant-disease'} className="bg-white p-8 rounded-xl shadow-sm border-2  hover:shadow-md transition-shadow">
+            {/* <Link href={'/plant-disease'} className="bg-white p-8 rounded-xl shadow-sm border-2  hover:shadow-md transition-shadow">
               <Bug className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-4">Disease Detection</h3>
               <p className="text-gray-600">
                 Identify crop diseases early with our AI-powered detection system.
               </p>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
@@ -134,9 +124,9 @@ function App() {
             <div>
               <h4 className="font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Plant Information</li>
-                <li>Crop Recommendations</li>
-                <li>Disease Detection</li>
+                <li><a href={'/plant-info'}>Disease Detection</a></li>
+                <li><a href={'/crop-recomend'} >Crop Recommendations</a></li>
+                <a></a>
               </ul>
             </div>
             <div>
