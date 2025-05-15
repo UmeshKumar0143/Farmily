@@ -3,14 +3,14 @@
 ## 🚀 Homepage
 Farmily is an innovative **smart agricultural platform** that empowers farmers by providing **AI-driven solutions** to tackle crop diseases, climate change, and resource inaccessibility. By leveraging modern technologies, Farmily helps farmers maximize productivity and sustainability.
 
----
+-----
 
 ## 🎥 Demo Video  
 [![Watch the video](./Screenshots/Video.png)](https://drive.google.com/file/d/1oIUoO05oz_Lwh3raI9RKCTdo7pTq15ZD/view?usp=sharing)
 
 
 
----
+-----
 
 ## 📷 Screenshots  
 ### 🌿 Crop Disease Detection  
